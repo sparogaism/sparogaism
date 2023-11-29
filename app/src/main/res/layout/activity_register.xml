@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primarycolor"
+    tools:context=".register">
+
+
+    <ImageView
+        android:layout_width="284dp"
+        android:layout_height="268dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-71dp"
+        android:layout_marginRight="-22dp"
+        android:src="@drawable/shape7" />
+
+    <ImageView
+        android:layout_width="504dp"
+        android:layout_height="553dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/shape8" />
+
+    <TextView
+        android:id="@+id/text_join"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="199dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Sign Up To Join"
+        android:textColor="@color/abu"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/text_join"
+        />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/text_join"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/abu_border"
+        android:drawableLeft="@drawable/baseline_account_circle_24"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:hint="Username"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/emaill"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/abu_border"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:hint="Email Address"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/emaill"
+        android:id="@+id/namee"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/abu_border"
+        android:drawableLeft="@drawable/baseline_account_box_24"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:hint="Name"
+        android:textColor="@color/abu"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/namee"
+        android:id="@+id/sandi"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/abu_border"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:hint="Password"
+        android:textColor="@color/abu"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/sandi"
+        android:id="@+id/no_hp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/abu_border"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:hint="Phone Number"
+        android:textColor="@color/abu"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/no_hp"
+        android:layout_marginTop="46dp"
+        android:width="250dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Sign In"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="-16dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:gravity="center"
+        android:padding="19dp"
+        android:text="Have an account? "
+        android:textColor="@color/primarycolor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="209dp"
+        android:layout_marginTop="-17dp"
+        android:layout_marginRight="277dp"
+        android:fontFamily="@font/poppinsbold"
+        android:padding="19dp"
+        android:text="Sign in"
+        android:textColor="@color/sign" />
+
+
+</RelativeLayout>
+

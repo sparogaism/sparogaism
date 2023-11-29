@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-96dp"
+        android:src="@drawable/shape3"
+        android:id="@+id/bgrd"
+
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shape1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/img_1"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="34dp"
+        android:layout_marginRight="-32dp"
+        android:layout_marginBottom="-34dp"
+        android:src="@drawable/shape2"
+        android:id="@+id/img_3"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="139dp"
+
+        android:layout_marginBottom="-139dp"
+        android:src="@drawable/shape5" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="-40dp"
+        android:layout_marginBottom="-62dp"
+        android:src="@drawable/shape4" />
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_1"
+        android:layout_marginTop="-505dp"
+        android:src="@drawable/cameraorg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-235dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Rent Lens Frame Memories"
+        android:textSize="16dp"
+        android:id="@+id/txt_2"
+        />
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:width="250dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Start"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
