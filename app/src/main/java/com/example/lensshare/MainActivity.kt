@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun btnStartListener(){
         btn_1.setOnClickListener() {
-            startActivity(Intent(this, login::class.java))
+            startActivity(Intent(this, Login::class.java))
 
         }
 

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pending">
+
+    <ImageView
+        android:id="@+id/topshape"
+        android:layout_width="415dp"
+        android:layout_height="150dp"
+        android:background="@drawable/shapetop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/halooo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="23dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Halo"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/rentlens"
+        android:layout_width="400dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/halooo"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="-54dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Rent Lens, Frame Memories"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        />
+
+    <ImageView
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:src="@drawable/shapebutton"
+        android:layout_centerInParent="true"
+        android:id="@+id/PopUp"
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:text="Dear valued customer,Thank you for placing your order with us! We appreciate your business.To proceed with your order or for any inquiries, please feel free to reach out to our admin via WhatsApp. Our team is ready to assist you and ensure a smooth transaction."
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppinsbold"
+/>
+
+    <ImageView
+        android:id="@+id/whatsappButton"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="464dp"
+        android:layout_marginRight="33dp"
+        android:src="@drawable/whatsapp" />
+
+    <ImageView
+        android:id="@+id/homeWa"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="465dp"
+        android:src="@drawable/home_wa" />
+
+
+</RelativeLayout>

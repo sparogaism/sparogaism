@@ -4,37 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primarycolor"
-    tools:context=".login">
+    android:background="@color/secondarycolor"
+    tools:context=".Login">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="487dp"
+        android:layout_width="340dp"
+        android:layout_height="350dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="17dp"
-        android:src="@drawable/shape6" />
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/bglogin" />
 
     <ImageView
-        android:layout_width="400dp"
-        android:layout_height="300dp"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
         android:id="@+id/logooo"
         android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="-28dp"
-        android:layout_marginRight="-49dp"
-        android:src="@drawable/shape7" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:src="@drawable/cameraorg" />
 
     <TextView
         android:id="@+id/text_join"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/logooo"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="50dp"
         android:layout_centerInParent="true"
         android:fontFamily="@font/poppinssemibold"
         android:text="Sign In To Join"
-        android:textColor="@color/abu"
+        android:textColor="@color/primarycolor"
         android:textSize="40dp" />
 
     <LinearLayout
@@ -73,7 +72,7 @@
         android:padding="8dp" />
 
     <Button
-        android:id="@+id/btn"
+        android:id="@+id/btnsign"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/pw"
@@ -88,8 +87,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn"
-        android:layout_marginLeft="19dp"
+        android:layout_below="@id/btnsign"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="-5dp"
         android:fontFamily="@font/poppinsmedium"
         android:padding="19dp"
@@ -98,10 +97,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn"
+        android:layout_below="@id/btnsign"
+        android:id="@+id/signupnow"
         android:layout_alignParentRight="true"
         android:layout_marginTop="-7dp"
-        android:layout_marginRight="53dp"
+        android:layout_marginRight="30dp"
         android:fontFamily="@font/poppinsbold"
         android:padding="19dp"
         android:text="Sign up now "

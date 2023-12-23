@@ -1,13 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".home">
+    android:background="@color/white">
 
-    <
+    <ImageView
+        android:id="@+id/topshape"
+        android:layout_width="415dp"
+        android:layout_height="150dp"
+        android:background="@drawable/shapetop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/halooo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="23dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Halo"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/rentlens"
+        android:layout_width="400dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/halooo"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="-54dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Rent Lens, Frame Memories"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        />
+
+    <ImageView
+        android:id="@+id/shapeProfile"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/shapebutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
+    <TextView
+        android:id="@+id/profileTeks"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="228dp"
+        android:layout_marginRight="31dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Profile"
+        android:textColor="@color/white"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/iconUser"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="225dp"
+        android:src="@drawable/userlist" />
+
+    <ImageView
+        android:id="@+id/shapeList"
+        android:layout_width="360dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/shapeProfile"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shapebutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/iconCamera"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/iconUser"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="77dp"
+        android:src="@drawable/cameralist" />
+
+    <TextView
+        android:id="@+id/CameraTeks"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="419dp"
+        android:layout_marginRight="9dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Camera"
+        android:textColor="@color/white"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/shapeProses"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/shapeList"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/shapebutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ProsesList"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/iconUser"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="270dp"
+        android:src="@drawable/proseslist" />
+
+    <TextView
+        android:id="@+id/ProsesTeks"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="590dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Proses"
+        android:textColor="@color/white"
+        android:textSize="50dp" />
 
 </RelativeLayout>

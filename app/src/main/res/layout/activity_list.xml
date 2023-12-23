@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".List">
+
+    <ImageView
+        android:id="@+id/topList"
+        android:layout_width="415dp"
+        android:layout_height="150dp"
+        android:background="@drawable/shapetop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teks1"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Camera List"
+        android:textColor="@color/white"
+        android:textSize="50dp" />
+
+
+    <!--    <ImageView-->
+<!--        android:id="@+id/shapeKamera1"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="90dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginTop="200dp"-->
+<!--        android:background="@drawable/shapebutton"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/rentButton"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginTop="249dp"-->
+<!--        android:layout_marginRight="83dp"-->
+<!--        android:src="@drawable/rent" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/iconKamera1"-->
+<!--        android:layout_width="70dp"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginLeft="68dp"-->
+<!--        android:layout_marginTop="213dp"-->
+<!--        android:src="@drawable/frame_pp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/teksKamera1"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginTop="220dp"-->
+<!--        android:fontFamily="@font/poppinssemibold"-->
+<!--        android:text="Kamera 1"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="15dp"-->
+<!--        tools:ignore="TextSizeCheck" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/shapeKamera2"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="90dp"-->
+<!--        android:layout_below="@+id/iconKamera1"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:background="@drawable/shapebutton"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/iconKamera2"-->
+<!--        android:layout_width="70dp"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:layout_below="@id/iconKamera1"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginLeft="73dp"-->
+<!--        android:layout_marginTop="322dp"-->
+<!--        android:src="@drawable/frame_pp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/teksKamera2"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_below="@id/teksKamera1"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginTop="334dp"-->
+<!--        android:fontFamily="@font/poppinssemibold"-->
+<!--        android:text="Kamera 2"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="15dp"-->
+<!--        tools:ignore="TextSizeCheck" />-->
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/rentButton2"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_below="@id/rentButton"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginTop="364dp"-->
+<!--        android:layout_marginRight="81dp"-->
+<!--        android:src="@drawable/rent" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/shapeKamera3"-->
+<!--        android:layout_below="@id/shapeKamera2"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="90dp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:background="@drawable/shapebutton"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/iconKamera3"-->
+<!--        android:layout_width="70dp"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:layout_below="@id/iconKamera2"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginLeft="72dp"-->
+<!--        android:layout_marginTop="439dp"-->
+<!--        android:src="@drawable/frame_pp"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/teksKamera3"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_below="@id/teksKamera2"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginTop="436dp"-->
+<!--        android:fontFamily="@font/poppinssemibold"-->
+<!--        android:text="Kamera 3"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="15dp"-->
+<!--        tools:ignore="TextSizeCheck" />-->
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/rentButton3"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_below="@id/rentButton2"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginTop="475dp"-->
+<!--        android:layout_marginRight="75dp"-->
+<!--        android:src="@drawable/rent" />-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleviewlist"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="165dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/recycleviewlist"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="-26dp"
+        android:src="@drawable/baseline_arrow_back_ios_24" />
+
+
+</RelativeLayout>

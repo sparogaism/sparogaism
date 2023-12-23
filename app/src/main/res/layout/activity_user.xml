@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondarycolor"
+    tools:context=".User">
+
+
+    <ImageView
+        android:id="@+id/ppUser"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/profilelogo" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/ppUser"
+        android:id="@+id/nameUser"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/abu_border"
+        android:drawableLeft="@drawable/baseline_account_box_24"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp" />
+
+<!--    <TextView-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:layout_below="@+id/nameUser"-->
+<!--        android:id="@+id/sandiUser"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:background="@drawable/abu_border"-->
+<!--        android:drawableLeft="@drawable/baseline_lock_24"-->
+<!--        android:drawablePadding="8dp"-->
+<!--        android:fontFamily="@font/poppinsmedium"-->
+<!--        android:text="Password"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:padding="8dp" />-->
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/nameUser"
+        android:id="@+id/emailUser"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/abu_border"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp" />
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/emailUser"
+        android:id="@+id/noHp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/abu_border"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Nomor HP"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/backHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/noHp"
+        android:layout_marginTop="33dp"
+        android:width="150dp"
+        android:background="@drawable/button_shape"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="34dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Home"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/buttonLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/noHp"
+        android:layout_marginTop="33dp"
+        android:width="150dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="45dp"
+        android:text="Logout"
+        android:textColor="@color/white" />
+
+
+
+
+</RelativeLayout>
